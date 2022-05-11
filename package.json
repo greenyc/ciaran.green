@@ -1,0 +1,44 @@
+{
+  "name": "ciaran.green",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "prepare": "husky install",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --ignore-path .gitignore --write"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.0.11",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "c8": "^7.11.2",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "flush-promises": "^1.0.2",
+    "happy-dom": "^2.55.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "sass": "^1.50.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5",
+    "vitest": "^0.9.3",
+    "vue-tsc": "^0.34.7"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --cache --fix",
+    "*.--write": "prettier --write"
+  }
+}
