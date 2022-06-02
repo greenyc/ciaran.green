@@ -8,7 +8,6 @@ npm run dev
 ```
 
 To build:
-To run locally:
 
 ```
 npm i
