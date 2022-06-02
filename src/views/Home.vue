@@ -8,14 +8,14 @@ h1 {
   width: 100%;
 }
 h2 {
-  color: blue;
+  color: $brand;
 
   @include tablet {
-    color: green;
+    color: $error;
   }
 
   @include desktop {
-    color: pink;
+    color: $success;
   }
 }
 </style>
