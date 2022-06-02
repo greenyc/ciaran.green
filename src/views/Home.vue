@@ -1,8 +1,21 @@
-<script setup lang="ts">
-import Test from "../components/Test.vue";
-</script>
-
 <template>
   <h1>Home Page</h1>
-  <Test />
+  <h2>Breakpoints</h2>
 </template>
+
+<style scoped lang="scss">
+h1 {
+  width: 100%;
+}
+h2 {
+  color: blue;
+
+  @include tablet {
+    color: green;
+  }
+
+  @include desktop {
+    color: pink;
+  }
+}
+</style>
