@@ -5,11 +5,11 @@
 import { expect, describe, it } from "vitest";
 import { mount } from "@vue/test-utils";
 
-import HelloWorld from "./HelloWorld.vue";
+import SmallScreenWarning from "./SmallScreenWarning.vue";
 
-describe("HelloWorld tests", () => {
+describe("SmallScreenWarning tests", () => {
   it("should render", async () => {
-    const wrapper = mount(HelloWorld);
+    const wrapper = mount(SmallScreenWarning);
     expect(wrapper.exists());
   });
 });
