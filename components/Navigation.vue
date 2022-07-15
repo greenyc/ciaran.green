@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <img
-      src="../assets/img/logo.png"
+      src="@/assets/img/logo.png"
       alt="ciaran.green logo"
       class="navigation__logo"
     />

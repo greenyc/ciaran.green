@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss">
-@import "./assets/styles/sheets/_normalize.scss";
+@import "@/assets/styles/sheets/_normalize.scss";
 
 .wrapper {
   width: 100%;

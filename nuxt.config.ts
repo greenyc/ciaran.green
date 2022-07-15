@@ -4,9 +4,7 @@ import { defineNuxtConfig } from "nuxt";
 export default defineNuxtConfig({
   app: {
     head: {
-      link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
   vite: {
@@ -14,7 +12,7 @@ export default defineNuxtConfig({
       preprocessorOptions: {
         scss: {
           additionalData: `
-          @import "./assets/styles/_main.scss";
+          @import "@/assets/styles/_main.scss";
         `,
         },
       },
