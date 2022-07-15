@@ -4,9 +4,11 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "husky": "^8.0.1",
     "nuxt": "3.0.0-rc.4"
   },
   "dependencies": {
