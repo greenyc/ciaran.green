@@ -2,14 +2,9 @@
   <div class="wrapper">
     <SmallScreenWarning />
     <Navigation />
-    <router-view />
+    <slot />
   </div>
 </template>
-
-<script setup lang="ts">
-import Navigation from "./components/Navigation.vue";
-import SmallScreenWarning from "./components/SmallScreenWarning.vue";
-</script>
 
 <style lang="scss">
 @import "./assets/styles/sheets/_normalize.scss";
@@ -21,7 +16,7 @@ import SmallScreenWarning from "./components/SmallScreenWarning.vue";
   padding: $quad-unit $double-unit;
 }
 
-#app {
+#__nuxt {
   width: 100%;
   min-width: 100vw;
   min-height: 100vh;
