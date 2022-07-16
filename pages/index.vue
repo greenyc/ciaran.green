@@ -1,6 +1,8 @@
 <template>
-  <h1>Home Page</h1>
-  <h2>Breakpoints</h2>
+  <div>
+    <h1>Home Page</h1>
+    <h2>Breakpoints</h2>
+  </div>
 </template>
 
 <style scoped lang="scss">
