@@ -1,0 +1,15 @@
+@import "@/assets/styles/variables/_units.scss";
+@import "@/assets/styles/variables/_breakpoints.scss";
+
+.wrapper {
+  max-width: calc($tablet-width - $double-unit * 2);
+  padding: 0 $double-unit;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  @include desktop {
+    max-width: $tablet-width;
+    padding: 0;
+  }
+}
