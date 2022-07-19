@@ -3,3 +3,4 @@ Add homepage content (use favourited SVG page for icons)
 Add contact page
 Add dark mode for whole site
 Make SVGs smart (maybe autocompile some .vue files of the svgs?)
+Add normalise CSS (important before it creates more headache down the line)
