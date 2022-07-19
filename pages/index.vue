@@ -4,11 +4,7 @@
       <h1 class="homepage__header">
         Ciaran Green: front end software developer
       </h1>
-      <img
-        src="@/assets/img/computer.svg"
-        class="homepage__header-icon"
-        alt="PC Icon"
-      />
+      <Computer class="homepage__header-icon" />
     </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium error
