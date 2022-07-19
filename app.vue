@@ -40,5 +40,21 @@ h1 {
   font-size: 4rem;
   line-height: 4.8rem;
   font-weight: 300;
+  margin: 0 0 $triple-unit;
+}
+
+h2 {
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+  font-weight: 300;
+  margin: 0 0 $double-unit;
+}
+
+p {
+  margin: 0 0 $double-unit;
+}
+
+section {
+  margin: 0 0 $triple-unit;
 }
 </style>
