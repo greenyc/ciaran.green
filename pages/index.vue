@@ -14,10 +14,13 @@
           @click="goTo(`https://www.linkedin.com/in/ciaran-green-131615170/`)"
         />
       </div>
+
       <!-- Start of Evri (previously Hermes) -->
       <div class="homepage-experience__section">
-        <h4>Evri (previously Hermes)</h4>
-        <p>Senior Front End Developer - January 2022 - Present</p>
+        <h4 class="homepage-experience__heading">
+          Senior Front End Developer @ Evri (previously Hermes)
+        </h4>
+        <p class="homepage-experience__subheading">January 2022 - Present</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           error consequuntur nobis a. Porro nihil qui placeat natus pariatur
@@ -26,13 +29,14 @@
           tempore labore, quaerat facilis.
         </p>
       </div>
-
       <!-- End of Evri (previously Hermes) -->
 
       <!-- Start of Hermes -->
       <div class="homepage-experience__section">
-        <h4>Hermes</h4>
-        <p>Front End UI Developer - July 2020 - January 2022</p>
+        <h4 class="homepage-experience__heading">
+          Front End UI Developer @ Hermes
+        </h4>
+        <p class="homepage-experience__subheading">July 2020 - January 2022</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           error consequuntur nobis a. Porro nihil qui placeat natus pariatur
@@ -41,12 +45,14 @@
           tempore labore, quaerat facilis.
         </p>
       </div>
-
       <!-- End of Hermes -->
 
       <!-- Start of Jet2.com and Jet2Holidays -->
       <div class="homepage-experience__section">
-        <h4>Jet2.com and Jet2Holidays</h4>
+        <h4 class="homepage-experience__heading">
+          UI Developer @ Jet2.com and Jet2Holidays
+        </h4>
+        <p class="homepage-experience__subheading">July 2019 - July 2020</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           error consequuntur nobis a. Porro nihil qui placeat natus pariatur
@@ -55,12 +61,14 @@
           tempore labore, quaerat facilis.
         </p>
       </div>
-
       <!-- End of Jet2.com and Jet2Holidays -->
 
       <!-- Start of Ultima Furniture -->
       <div class="homepage-experience__section">
-        <h4>Ultima Furniture</h4>
+        <h4 class="homepage-experience__heading">
+          Javascript Developer @ Ultima Furniture
+        </h4>
+        <p class="homepage-experience__subheading">May 2019 - July 2019</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           error consequuntur nobis a. Porro nihil qui placeat natus pariatur
@@ -74,7 +82,10 @@
 
       <!-- Start of Frog Education -->
       <div class="homepage-experience__section">
-        <h4>Frog Education</h4>
+        <h4 class="homepage-experience__heading">
+          Junior Developer @ Frog Education
+        </h4>
+        <p class="homepage-experience__subheading">May 2018 - May 2019</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           error consequuntur nobis a. Porro nihil qui placeat natus pariatur
@@ -83,7 +94,6 @@
           tempore labore, quaerat facilis.
         </p>
       </div>
-
       <!-- End of Frog Education -->
     </section>
     <section>
@@ -155,8 +165,19 @@ export default {
       }
     }
 
+    &__heading {
+      margin: 0 0 $half-unit;
+    }
+
+    &__subheading {
+      font-style: italic;
+      color: $neutral-dark-text-light;
+
+      margin: 0 0 $unit;
+    }
+
     &__section {
-      margin-bottom: $double-unit;
+      margin-bottom: $triple-unit;
     }
   }
 }
