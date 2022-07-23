@@ -1,0 +1,47 @@
+[
+  {
+    "headingText": "Senior Front End Developer @ Evri (previously Hermes)",
+    "subheadingText": "January 2022 - Present",
+    "bodyText": [
+      "In late 2021 to early 2022, we were given the mammoth task of rebuilding the entire Hermes website against a new set of designs as part of the rebrand from Hermes to Evri - I was a part of the core team.",
+      "During this project, we moved from using CrownPeak to Prismic as the CMS. This change from a traditional CMS to a Headless CMS came with it's own set of problems which we had to solve.",
+      "We created an entirely new Vue component library using Storybook to expedite the process of rebranding each of the SPAs.",
+      "As a lot of offshore contractors were brought on to help with this project, a considerable amount of my time also went into training people, co-ordinating them and making sure that they were maintaining the standards which we had set.",
+      "It was mid-way through this project that I was promoted to Senior due to my contributions to the task."
+    ]
+  },
+  {
+    "headingText": "Front End UI Developer @ Hermes",
+    "subheadingText": "July 2020 - January 2022",
+    "bodyText": [
+      "Soon after joining Hermes, I was tasked with rewriting the Tracking SPA (a Nuxt app) which is the most viewed page on the website. Since then, I have been the sole front end developer on the Track squad and have been involved in all of the additions to the product.",
+      "Aside from the Track work, I have been involved in many areas of development on the Hermes website. Some examples include my work to integrate what3words into the Hermes web flows and the handling of CMS (CrownPeak) issues."
+    ]
+  },
+  {
+    "headingText": "UI Developer @ Jet2.com and Jet2Holidays",
+    "subheadingText": "July 2019 - July 2020",
+    "bodyText": [
+      "At Jet2 I worked closely with UX designers to improve the booking flows and account sections of the website. I also gained experience in writing components for a CMS (Sitecore) and creating SPAs using Nuxt.",
+      "In the latter half of my time at Jet2, I was added onto the CRO team where we utilised Optimizely to perform multivariate tests on the website to increase revenue."
+    ]
+  },
+  {
+    "headingText": "Javascript Developer @ Ultima Furniture",
+    "subheadingText": "May 2019 - July 2019",
+    "bodyText": [
+      "In my short time at Ultima Furniture, I wrote a script using Node.js which took the data that a piece of warehouse management software output, normalised and cleansed it, and then inserted it into a MySQL database.",
+      "I also wrote a simple interface in AngularJS for handling the running of this script.",
+      "At the time, I was more interested in a front end specific role so I decided to pursue other opportunities."
+    ]
+  },
+  {
+    "headingText": "Junior Developer @ Frog Education",
+    "subheadingText": "May 2018 - May 2019",
+    "bodyText": [
+      "In my first role after university, I was working as a junior full stack developer for an educational technology company's virtual learning platform.",
+      "The project used JavaScriptMVC (the predecessor to DoneJS) with LESS on the front end. On the back end, the APIs were written in PHP and the databases were built using MySQL.",
+      "During my time at Frog Education, I became responsible for the company's cross-platform mobile application which was written using the Cordova framework."
+    ]
+  }
+]
