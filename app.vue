@@ -46,16 +46,31 @@ h1 {
   margin: 0;
 }
 
-h6 {
+h3 {
   font-size: 1.8rem;
   line-height: 2.4rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 $double-unit;
+  text-decoration: underline;
+  text-underline-offset: $half-unit;
+}
+
+h4 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 0 0 $unit;
 }
 
 p {
   margin: 0;
+}
+
+section {
+  border-bottom: 1px solid $neutral-mid;
+  padding: $quad-unit 0;
 }
 </style>
