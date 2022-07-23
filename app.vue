@@ -11,7 +11,6 @@
 // eslint-disable-next-line no-undef
 useHead({
   title: "Ciaran Green",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
 });
 </script>
