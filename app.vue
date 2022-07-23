@@ -6,6 +6,16 @@
   </div>
 </template>
 
+<script setup>
+// eslint disabled because it doesn't understand useHead
+// eslint-disable-next-line no-undef
+useHead({
+  title: "Ciaran Green",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  charset: "utf-8",
+});
+</script>
+
 <style lang="scss">
 @import "@/assets/styles/sheets/_normalize.scss";
 @import "@/assets/styles/mixins/_wrapper.scss";
@@ -70,7 +80,10 @@ p {
 }
 
 section {
-  border-bottom: 1px solid $neutral-mid;
   padding: $quad-unit 0;
+
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $neutral-mid;
+  }
 }
 </style>
