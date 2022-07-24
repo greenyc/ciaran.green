@@ -67,13 +67,14 @@ export default {
     height: 24px;
     margin-left: $double-unit;
     cursor: pointer;
+    transform: rotate(180deg);
 
     :deep(path) {
       stroke: $neutral-dark-text-light;
     }
 
     &--expanded {
-      transform: rotate(180deg);
+      transform: rotate(0deg);
     }
   }
 
