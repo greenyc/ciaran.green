@@ -72,6 +72,7 @@ export default {
     margin-left: $double-unit;
     cursor: pointer;
     transform: rotate(180deg);
+    -webkit-tap-highlight-color: transparent;
 
     :deep(path) {
       stroke: $neutral-dark-text-light;
