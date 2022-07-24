@@ -36,17 +36,106 @@
     </section>
     <section>
       <h3>Technologies</h3>
-      <p>
-        This website is still very much under construction. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Praesentium error consequuntur
-        nobis a. Porro nihil qui placeat natus pariatur ullam repellat
-        quibusdam, dolore eos. Praesentium voluptates qui vitae amet explicabo
-        fugiat blanditiis harum id repellendus dignissimos tempore labore,
-        quaerat facilis. Saepe molestias quia sint quas exercitationem veritatis
-        sapiente obcaecati vitae optio, voluptates ad aspernatur non dolore ea
-        temporibus assumenda hic, dolores, debitis cupiditate iusto perferendis
-        laborum nisi ipsam.
+      <p class="homepage-technologies__text">
+        Throughout my career so far I have had the pleasure of working with a
+        large range of different front end technologies and I am always up for
+        learning new technologies. My JavaScript framework of choice is Vue (<a
+          href="https://github.com/greenyc/ciaran.green"
+          target="_blank"
+          >this website</a
+        >
+        is built using Nuxt 3). Here are some of the technologies I enjoy using
+        the most.
       </p>
+      <div class="homepage-technologies__container">
+        <!-- TODO: componentise this -->
+        <SvgBabel
+          class="homepage-technologies__icon"
+          @click="goTo(`https://babeljs.io/`)"
+        />
+        <SvgCss
+          class="homepage-technologies__icon"
+          @click="goTo(`https://developer.mozilla.org/en-US/docs/Web/CSS`)"
+        />
+        <SvgEslint
+          class="homepage-technologies__icon"
+          @click="goTo(`https://eslint.org/`)"
+        />
+        <SvgGit
+          class="homepage-technologies__icon"
+          @click="goTo(`https://git-scm.com/`)"
+        />
+        <SvgHtml
+          class="homepage-technologies__icon"
+          @click="goTo(`https://developer.mozilla.org/en-US/docs/Web/HTML`)"
+        />
+        <SvgJavascript
+          class="homepage-technologies__icon"
+          @click="
+            goTo(`https://developer.mozilla.org/en-US/docs/Web/JavaScript`)
+          "
+        />
+        <SvgJenkins
+          class="homepage-technologies__icon"
+          @click="goTo(`https://www.jenkins.io/`)"
+        />
+        <SvgJest
+          class="homepage-technologies__icon"
+          @click="goTo(`https://jestjs.io/`)"
+        />
+        <SvgJson
+          class="homepage-technologies__icon"
+          @click="
+            goTo(
+              `https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON`
+            )
+          "
+        />
+        <SvgNpm
+          class="homepage-technologies__icon"
+          @click="goTo(`https://www.npmjs.com/`)"
+        />
+        <SvgNuxt
+          class="homepage-technologies__icon"
+          @click="goTo(`https://nuxtjs.org/`)"
+        />
+        <SvgPrettier
+          class="homepage-technologies__icon"
+          @click="goTo(`https://prettier.io/`)"
+        />
+        <SvgSass
+          class="homepage-technologies__icon"
+          @click="goTo(`https://sass-lang.com/`)"
+        />
+        <SvgStorybook
+          class="homepage-technologies__icon"
+          @click="goTo(`https://storybook.js.org/`)"
+        />
+        <SvgTypescript
+          class="homepage-technologies__icon"
+          @click="goTo(`https://www.typescriptlang.org/`)"
+        />
+        <SvgVim
+          class="homepage-technologies__icon"
+          @click="goTo(`https://www.vim.org/`)"
+        />
+        <SvgVite
+          class="homepage-technologies__icon"
+          @click="goTo(`https://vitejs.dev/`)"
+        />
+        <SvgVscode
+          class="homepage-technologies__icon"
+          @click="goTo(`https://code.visualstudio.com/`)"
+        />
+        <SvgVue
+          class="homepage-technologies__icon"
+          @click="goTo(`https://vuejs.org/`)"
+        />
+        <SvgWebpack
+          class="homepage-technologies__icon"
+          @click="goTo(`https://webpack.js.org/`)"
+        />
+      </div>
     </section>
   </div>
 </template>
@@ -111,6 +200,29 @@ export default {
       &:hover {
         cursor: pointer;
       }
+    }
+  }
+
+  &-technologies {
+    &__text {
+      margin-bottom: $triple-unit;
+    }
+
+    &__icon {
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+
+      &:not(:last-of-type) {
+        margin-right: $unit;
+      }
+    }
+
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
     }
   }
 }
