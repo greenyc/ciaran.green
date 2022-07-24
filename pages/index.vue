@@ -89,6 +89,7 @@ export default {
   &-experience {
     &__row {
       display: flex;
+      padding-top: $unit;
     }
 
     &__icon {

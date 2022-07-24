@@ -60,6 +60,10 @@ export default {
 .job-experience {
   margin-bottom: $triple-unit;
 
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
   &__chevron {
     min-width: 24px;
     min-height: 24px;
