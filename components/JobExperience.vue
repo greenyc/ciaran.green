@@ -1,9 +1,12 @@
 <template>
   <div class="job-experience">
-    <div class="job-experience__row">
+    <div class="job-experience__row" @click="toggleExpanded">
       <div class="job-experience__top">
         <h4 class="job-experience__heading">
-          {{ headingText }}
+          {{ jobText }} @
+          <a class="job-experience__link" target="_blank" :href="companyLink">{{
+            companyText
+          }}</a>
         </h4>
         <p class="job-experience__subheading">{{ subheadingText }}</p>
       </div>
@@ -12,7 +15,6 @@
           'job-experience__chevron',
           { 'job-experience__chevron--expanded': expanded },
         ]"
-        @click="toggleExpanded"
       />
     </div>
     <div v-if="expanded">
@@ -30,7 +32,11 @@
 <script>
 export default {
   props: {
-    headingText: {
+    jobText: {
+      type: String,
+      required: true,
+    },
+    companyText: {
       type: String,
       required: true,
     },
@@ -40,6 +46,10 @@ export default {
     },
     bodyText: {
       type: Array,
+      required: true,
+    },
+    companyLink: {
+      type: String,
       required: true,
     },
   },
@@ -70,7 +80,6 @@ export default {
     width: 24px;
     height: 24px;
     margin-left: $double-unit;
-    cursor: pointer;
     transform: rotate(180deg);
     -webkit-tap-highlight-color: transparent;
 
@@ -87,6 +96,7 @@ export default {
     display: flex;
     align-items: center;
     margin: 0 0 $unit;
+    cursor: pointer;
   }
 
   &__top {

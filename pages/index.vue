@@ -1,6 +1,6 @@
 <template>
   <div class="homepage wrapper">
-    <section>
+    <section class="homepage__header">
       <div class="homepage__header-container">
         <h1 class="homepage__header">Ciaran Green - front end developer</h1>
       </div>
@@ -27,9 +27,11 @@
       <JobExperience
         v-for="(job, index) in jobExperiences"
         :key="index"
-        :heading-text="job.headingText"
+        :job-text="job.jobTitle"
+        :company-text="job.companyName"
         :subheading-text="job.subheadingText"
         :body-text="job.bodyText"
+        :company-link="job.companyUrl"
       />
     </section>
     <section>
@@ -80,6 +82,7 @@ export default {
 
   &__header {
     text-align: center;
+    margin: 0;
 
     &-container {
       display: flex;
