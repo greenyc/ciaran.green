@@ -87,10 +87,6 @@ a {
   &:hover {
     color: $neutral-dark-text-light;
   }
-
-  &:visited {
-    color: $neutral-dark;
-  }
 }
 
 section {
