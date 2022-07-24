@@ -78,6 +78,21 @@ p {
   margin: 0;
 }
 
+a {
+  color: $neutral-dark;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    color: $neutral-dark-text-light;
+  }
+
+  &:visited {
+    color: $neutral-dark;
+  }
+}
+
 section {
   padding: $quad-unit 0;
 
