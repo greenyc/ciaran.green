@@ -9,3 +9,4 @@ Review accessibility
 Move chevrons into a component with a direction prop for consistency (?)
 Sort out colours file, rename neutrals to be number based
 Update favicon (white C in black circle? black C in white circle?)
+Make technologies section loop through an object rather than be hardcoded
