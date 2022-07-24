@@ -69,6 +69,7 @@ export default {
 <style lang="scss" scoped>
 .job-experience {
   margin-bottom: $triple-unit;
+  -webkit-tap-highlight-color: transparent;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -81,7 +82,6 @@ export default {
     height: 24px;
     margin-left: $double-unit;
     transform: rotate(180deg);
-    -webkit-tap-highlight-color: transparent;
 
     :deep(path) {
       stroke: $neutral-dark-text-light;
