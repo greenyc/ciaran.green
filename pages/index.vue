@@ -6,6 +6,16 @@
         <SvgComputer class="homepage__header-icon" />
       </div>
     </section>
+    <section>
+      <h3>Welcome</h3>
+      <p>
+        Hi, I'm Ciaran and I am a front end developer. If you are here then you
+        are probably a recruiter/developer, the best way of contacting me is by
+        dropping me an email on
+        <a href="mailto:hello@ciaran.green">hello@ciaran.green</a>. Otherwise,
+        feel free to have a look around.
+      </p>
+    </section>
     <section class="homepage-experience">
       <div class="homepage-experience__row">
         <h3>Experience</h3>
