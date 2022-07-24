@@ -3,7 +3,7 @@
     <section>
       <div class="homepage__header-container">
         <h1 class="homepage__header">Ciaran Green - front end developer</h1>
-        <SvgComputer class="homepage__header-icon" />
+        <!-- <SvgComputer class="homepage__header-icon" /> -->
       </div>
     </section>
     <section>
@@ -81,7 +81,7 @@ export default {
 
   &__header {
     text-align: center;
-    margin-bottom: $triple-unit;
+    // margin-bottom: $triple-unit;
 
     &-container {
       display: flex;

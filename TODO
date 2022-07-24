@@ -7,3 +7,4 @@ Add normalise CSS (important before it creates more headache down the line)
 Componentise homepage when it's complete
 Review accessibility
 Move chevrons into a component with a direction prop for consistency (?)
+Sort out colours file, rename neutrals to be number based
