@@ -212,6 +212,7 @@ export default {
       width: 48px;
       height: 48px;
       cursor: pointer;
+      margin-bottom: $unit;
 
       &:not(:last-of-type) {
         margin-right: $unit;
