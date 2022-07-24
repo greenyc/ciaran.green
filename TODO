@@ -11,3 +11,4 @@ Sort out colours file, rename neutrals to be number based
 Update favicon (white C in black circle? black C in white circle?)
 Make technologies section loop through an object rather than be hardcoded
 Update README
+Rewrite technologies icon grid to use css grid
